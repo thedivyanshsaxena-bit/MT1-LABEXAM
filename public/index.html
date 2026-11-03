@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Task Management</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; background: #f4f7fb; color: #1f2937; }
+    header { background: #173b68; color: white; padding: 28px 8%; }
+    main { max-width: 850px; margin: 35px auto; padding: 0 20px; }
+    .panel { background: white; padding: 26px; border-radius: 12px; box-shadow: 0 5px 20px #14213d12; }
+    a { color: #1769aa; margin-right: 18px; }
+    li { margin: 12px 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Employee Task Management</h1>
+    <p>Organize tasks, assignments and progress in one place.</p>
+  </header>
+  <main>
+    <section class="panel">
+      <h2>Welcome!</h2>
+      <p>This page is served from <code>public/index.html</code> using Node.js's built-in FS module.</p>
+      <h3>HTTP Server Routes</h3>
+      <ul>
+        <li><a href="/">Home route (/)</a></li>
+        <li><a href="/tasks">View tasks (/tasks)</a></li>
+        <li><a href="/about">About (/about)</a></li>
+      </ul>
+      <p>REST API runs separately on port 4000.</p>
+    </section>
+  </main>
+</body>
+</html>
